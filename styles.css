@@ -531,7 +531,7 @@ input, textarea, select { font-family: inherit; }
   padding: 16px;
 }
 .ledger-panel .panel-label { font-size: 0.66rem; letter-spacing: 0.08em; text-transform: uppercase; color: #8FCB86; margin-bottom: 8px; display: block; }
-.ledger-emission { display: flex; align-baseline; gap: 10px; margin-bottom: 10px; }
+.ledger-emission { display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px; } 
 .ledger-emission .big { font-family: var(--font-playfair); font-size: 1.9rem; }
 .ledger-emission .unit { font-size: 0.8rem; color: #B9C0C7; }
 .bar-chip-row { display: flex; align-items: flex-end; gap: 3px; height: 26px; }
